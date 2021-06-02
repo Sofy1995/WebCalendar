@@ -122,7 +122,7 @@ api.add_resource(EventByID, '/event/<int:id>')
 
 
 
-# do not change the way you run the program
+# do not change the way you run the program anymore
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         arg_host, arg_port = sys.argv[1].split(':')
